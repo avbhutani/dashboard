@@ -1,15 +1,14 @@
 import Header from "../../components/home/header/Header";
+import Sidebar from "../../components/home/sidebar/Sidebar";
 import "./style.css";
 
 export default function Home() {
   return (
     <div className="home_wrapper">
         <Header />
-      <section className="sidebar">
-        <div className="sidebar_header">
-            <h1>Dashboard</h1>
-        </div>
-      </section>
+        <section>
+        <Sidebar/>
+        </section>
         <section className="main"></section>
     </div>
   );

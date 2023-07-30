@@ -1,0 +1,74 @@
+/* Assuming the sidebar_wrap has the class name "sidebar_wrap" */
+.sidebar_wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%; /* Adjust the height as needed */
+    width: 200px; /* Set the width of the sidebar as needed */
+    background-color: #35a29f; /* Set the background color of the sidebar */
+    padding: 10px; /* Add some padding to the content inside the sidebar */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  /* Styling for the sidebar_user and sidebar_items elements */
+  .sidebar_user, #sidebar_items {
+    margin-bottom: 32px; /* Add some spacing between the user section and items */
+  }
+  
+  /* Styling for the sidebar_items ul and li elements */
+  #sidebar_items ul {
+    list-style-type: none; /* Remove bullet points from the list */
+    padding: 0; /* Remove default padding from the list */
+    text-align: center;
+    width: 100%;
+  }
+  #sidebar_items li {
+    border-radius:10px;
+    padding: 20px;
+  }
+  #sidebar_items li:hover {
+    background-color: white;
+    color:#35a29f ;
+}
+
+  
+  #sidebar_items li {
+    margin-bottom: 10px; /* Add some spacing between list items */
+    cursor: pointer; /* Change the cursor to indicate interactivity */
+  }
+  
+  /* Styling for the sidebar_splitter (if needed) */
+  #sidebar_top_splitter {
+    height: 1px; /* Set the height of the splitter line */
+    background-color: #ccc; /* Set the color of the splitter line */
+    margin: 10px 0; /* Add some spacing above and below the splitter */
+  }
+
+  #sidebar_bottom_splitter {
+    margin: 10px 0;
+    background-color: #ccc;
+    height: 1px;
+    margin-top:470px ;
+  }
+  @media (max-width: 768px) {
+    .sidebar_wrap {
+      width: 100%;
+      height: auto;
+      position: relative;
+      padding: 10px;
+    }
+  }
+  #sidebar_timedatestamp {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: small;
+    color: white;
+    margin-bottom: 10px;
+  }

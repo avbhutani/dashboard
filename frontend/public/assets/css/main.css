@@ -280,10 +280,9 @@ section {
 .header {
   transition: all 0.5s;
   z-index: 997;
-  height: 65px;
+  height: 80px;
   background-color: var(--color-primary);
-  border-end-start-radius: 10px;
-  border-end-end-radius: 10px;
+
 }
 
 .header.sticked {
