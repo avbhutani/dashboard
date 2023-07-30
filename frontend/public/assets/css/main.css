@@ -278,6 +278,12 @@ section {
 }
 
 .header {
+  position: relative;
+  top: 0;
+  left:160px;
+  max-width: 100%;
+  border: 1px solid white;
+
   transition: all 0.5s;
   z-index: 997;
   height: 80px;
@@ -286,7 +292,7 @@ section {
 }
 
 .header.sticked {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   left: 0;
@@ -295,6 +301,7 @@ section {
 }
 
 .header .logo img {
+  position: relative;
   max-height: 40px;
   margin-right: 6px;
 }
@@ -2668,4 +2675,4 @@ section {
 
 .footer .credits a {
   color: #fff;
-} */
+} 
