@@ -6,9 +6,9 @@ export default function Home() {
   return (
     <div className="home_wrapper">
         <Header />
-        <section>
+        
         <Sidebar/>
-        </section>
+        
         <section className="main"></section>
     </div>
   );

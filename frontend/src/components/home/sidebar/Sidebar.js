@@ -5,6 +5,8 @@ export default function Sidebar() {
 	var current_time = "Time: " + date.getHours()+":"+date.getMinutes()+":"+ date.getSeconds();
 	var datetime = current_date+" "+current_time;
     return (
+        <div className="sidebar_wrapper">
+
         <div className="sidebar_wrap">
             <div className="sidebar_user">
                 Hello <span id="sidebar_username"></span>
@@ -26,6 +28,7 @@ export default function Sidebar() {
                 {datetime}
             </div>
             </div>
+        </div>
         </div>
     )
 }
