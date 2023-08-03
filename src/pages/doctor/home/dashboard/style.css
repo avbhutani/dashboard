@@ -1,0 +1,21 @@
+body {
+  background-color: rgba(235, 245, 245, 0.996);
+}
+.home_wrapper {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  overflow-y: hidden;
+  display: flex;
+
+}
+.home_content {
+  border: 5px solid #000000;
+  width: 100%;
+  
+}
+.home_content_header {
+    display: flex;
+    justify-content: space-around;
+}
